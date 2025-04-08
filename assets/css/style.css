@@ -1200,5 +1200,7 @@ section {
 .projectm img{
 
   border-radius: 70%;
+  width: 50%;
+  height: 50%;
   
 }
