@@ -53,11 +53,11 @@ export default function About() {
             <div className="grid grid-cols-2 gap-4 text-gray-300">
               <div>
                 <p className="font-medium">Name:</p>
-                <p>Manthan</p>
+                <p>Manthan Patel</p>
               </div>
               <div>
                 <p className="font-medium">Email:</p>
-                <p>manthan@example.com</p>
+                <p>manthan002408@gmail.com</p>
               </div>
               <div>
                 <p className="font-medium">From:</p>
