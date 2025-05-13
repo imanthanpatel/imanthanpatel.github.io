@@ -69,7 +69,7 @@ export default function Contact() {
                 <MapPin className="h-6 w-6 text-primary mr-4 mt-1" />
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-gray-400">Mumbai, India</p>
+                  <p className="text-gray-400">Gujarat, India</p>
                 </div>
               </div>
 
@@ -77,7 +77,7 @@ export default function Contact() {
                 <Mail className="h-6 w-6 text-primary mr-4 mt-1" />
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <p className="text-gray-400">manthan@example.com</p>
+                  <p className="text-gray-400">manthan002408@gmail.com</p>
                 </div>
               </div>
 
@@ -85,14 +85,14 @@ export default function Contact() {
                 <Phone className="h-6 w-6 text-primary mr-4 mt-1" />
                 <div>
                   <h4 className="font-medium">Phone</h4>
-                  <p className="text-gray-400">+91 98765 43210</p>
+                  <p className="text-gray-400">+91 9428841250</p>
                 </div>
               </div>
             </div>
 
             <div className="flex space-x-4 pt-4">
               <Link
-                href="https://github.com/manthan"
+                href="https://github.com/imanthanpatel"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
@@ -101,7 +101,7 @@ export default function Contact() {
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
-                href="https://linkedin.com/in/manthan"
+                href="https://www.linkedin.com/in/manthan-patel-43680b315/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
@@ -110,7 +110,7 @@ export default function Contact() {
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                href="mailto:manthan@example.com"
+                href="mailto:manthan002408@gmail.com"
                 className="bg-gray-800 p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
               >
                 <Mail className="h-5 w-5" />
