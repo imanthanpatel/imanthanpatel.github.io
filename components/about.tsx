@@ -41,7 +41,7 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold">Full Stack Developer & Problem Solver</h3>
             <p className="text-gray-300">
-              I'm a passionate Full Stack Developer with expertise in building responsive and performant web
+              I'm a passionate Frontend Developer with expertise in building responsive and performant web
               applications. With a strong foundation in both frontend and backend technologies, I enjoy creating
               seamless user experiences that solve real-world problems.
             </p>
