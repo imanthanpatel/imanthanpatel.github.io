@@ -2,6 +2,9 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import profilrpic from "../public/image/manthan.jpg"
+
+
 
 export default function About() {
   return (
@@ -28,9 +31,11 @@ export default function About() {
           >
             <div className="absolute inset-0 border-2 border-primary rounded-lg transform translate-x-4 translate-y-4"></div>
             <div className="relative h-full w-full overflow-hidden rounded-lg bg-gray-800">
-              <Image src="/placeholder.svg?height=400&width=400" alt="Manthan" fill className="object-cover" />
-            </div>
+  <Image src="/image/manthan.jpg" alt="Manthan" fill className="" />
+</div>
+
           </motion.div>
+          
 
           <motion.div
             initial={{ opacity: 0, x: 50 }}
@@ -39,7 +44,7 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="space-y-6"
           >
-            <h3 className="text-2xl font-bold">Full Stack Developer & Problem Solver</h3>
+            <h3 className="text-2xl font-bold">Frontend Developer & Problem Solver</h3>
             <p className="text-gray-300">
               I'm a passionate Frontend Developer with expertise in building responsive and performant web
               applications. With a strong foundation in both frontend and backend technologies, I enjoy creating

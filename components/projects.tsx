@@ -13,9 +13,20 @@ export default function Projects() {
       description:
         "A full-featured e-commerce platform with product management, cart functionality, and payment integration.",
       image: "/placeholder.svg?height=300&width=500",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveLink: "https://project1.example.com",
-      githubLink: "https://github.com/manthan/project1",
+      tags: ["HTML","CSS","JavaScript"],
+      liveLink: "https://iecommerceweb.github.io/",
+      githubLink: "https://github.com/iEcommerceweb/iEcommerceweb.github.io",
+    },
+    {
+      title: "Airport Navagation System",
+      description:
+        "Developed an interactive airport gate navigation system using React.js, providing users with a visual interface to explore airport terminals and gate locations.Implemented dynamic UI components for terminal and gate selection, ensuring responsive design and smooth user experience.Utilized React Router and state management to enable seamless navigation between different sections of the airport.Focused on modular component structure and clean UI/UX design to enhance usability and scalability.",
+
+
+      image: "/air.png",
+      tags: ["React", "Node.js", ],
+      liveLink: "https://airport-ui.vercel.app",
+      githubLink: "https://github.com/imanthan/airport-ui",
     },
     {
       title: "Task Management App",
