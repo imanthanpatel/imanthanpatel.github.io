@@ -70,8 +70,8 @@ export default function Experience() {
               <h3 className="text-2xl font-bold">Work Experience</h3>
             </div>
 
-            <div className="relative border-l-2 border-gray-600 pl-8 ml-3 space-y-10">
-              {workExperience.map((job, index) => (
+            {/* <div className="relative border-l-2 border-gray-600 pl-8 ml-3 space-y-10">
+              {/* {workExperience.map((job, index) => (
                 <motion.div
                   key={job.title}
                   initial={{ opacity: 0, y: 20 }}
@@ -91,7 +91,7 @@ export default function Experience() {
                   </div>
                 </motion.div>
               ))}
-            </div>
+            </div> */} 
           </motion.div>
 
           {/* Education */}
