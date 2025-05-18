@@ -190,7 +190,9 @@ export default function Contact() {
                   className="bg-gray-800 border-gray-700"
                 />
               </div>
-
+              
+              
+            
               <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-white rounded-full">
                 Send Message
               </Button>

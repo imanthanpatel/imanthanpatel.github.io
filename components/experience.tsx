@@ -5,42 +5,42 @@ import { Briefcase, GraduationCap } from "lucide-react"
 
 export default function Experience() {
   const workExperience = [
-    {
-      title: "Senior Frontend Developer",
-      company: "Tech Innovations Inc.",
-      period: "2021 - Present",
-      description:
-        "Lead the frontend development team in building responsive and accessible web applications. Implemented modern React patterns and optimized performance.",
-    },
-    {
-      title: "Full Stack Developer",
-      company: "Digital Solutions Ltd.",
-      period: "2019 - 2021",
-      description:
-        "Developed full-stack applications using React, Node.js, and MongoDB. Collaborated with designers and product managers to deliver high-quality products.",
-    },
-    {
-      title: "Junior Web Developer",
-      company: "WebCraft Agency",
-      period: "2017 - 2019",
-      description:
-        "Built responsive websites and implemented UI designs. Worked with HTML, CSS, JavaScript, and various frontend frameworks.",
-    },
+    // {
+    //   title: "Senior Frontend Developer",
+    //   company: "Tech Innovations Inc.",
+    //   period: "2021 - Present",
+    //   description:
+    //     "Lead the frontend development team in building responsive and accessible web applications. Implemented modern React patterns and optimized performance.",
+    // },
+    // {
+    //   title: "Full Stack Developer",
+    //   company: "Digital Solutions Ltd.",
+    //   period: "2019 - 2021",
+    //   description:
+    //     "Developed full-stack applications using React, Node.js, and MongoDB. Collaborated with designers and product managers to deliver high-quality products.",
+    // },
+    // {
+    //   title: "Junior Web Developer",
+    //   company: "WebCraft Agency",
+    //   period: "2017 - 2019",
+    //   description:
+    //     "Built responsive websites and implemented UI designs. Worked with HTML, CSS, JavaScript, and various frontend frameworks.",
+    // },
   ]
 
   const education = [
     {
-      degree: "Master of Computer Science",
-      institution: "Tech University",
-      period: "2015 - 2017",
-      description: "Specialized in Web Technologies and Software Engineering. Graduated with distinction.",
+      degree: "BTech of Computer Science",
+      institution: "GSFC University",
+      period: "2024 - 2028",
+      description: "UnderGraduated ",
     },
-    {
-      degree: "Bachelor of Computer Applications",
-      institution: "Digital College",
-      period: "2012 - 2015",
-      description: "Focused on programming fundamentals, data structures, and web development basics.",
-    },
+    // {
+    //   degree: "Bachelor of Computer Applications",
+    //   institution: "Digital College",
+    //   period: "2012 - 2015",
+    //   description: "Focused on programming fundamentals, data structures, and web development basics.",
+    // },
   ]
 
   return (
