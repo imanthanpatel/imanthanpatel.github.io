@@ -27,7 +27,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6">
             <Button asChild className="bg-primary hover:bg-primary/90 text-white rounded-full px-6">
-              <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Link href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2 h-4 w-4" /> Download Resume
               </Link>
             </Button>
