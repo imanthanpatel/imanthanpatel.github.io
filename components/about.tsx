@@ -22,19 +22,19 @@ export default function About() {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="relative aspect-square max-w-md mx-auto"
-          >
-            <div className="absolute inset-0 border-2 border-primary rounded-lg transform translate-x-4 translate-y-4"></div>
-            <div className="relative h-full w-full overflow-hidden rounded-lg bg-gray-800">
-  <Image src="/image/manthan.jpg" alt="Manthan" fill className="" />
-</div>
-
-          </motion.div>
+         <motion.div
+  initial={{ opacity: 0, x: -50 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.5, delay: 0.2 }}
+  className="relative aspect-square max-w-md mx-auto"
+>
+  <div className="absolute inset-0 border-2 border-primary rounded-lg transform translate-x-4 translate-y-4">
+    <Image src={profilrpic} alt="Manthan" fill className="object-cover" />
+  </div>
+  <div className="relative h-full w-full overflow-hidden rounded-lg bg-gray-800">
+  </div>
+</motion.div>
           
 
           <motion.div

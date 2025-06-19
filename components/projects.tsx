@@ -26,7 +26,7 @@ export default function Projects() {
       image: "/air.png",
       tags: ["React", "Node.js", ],
       liveLink: "https://airport-ui.vercel.app",
-      githubLink: "https://github.com/imanthan/airport-ui",
+      githubLink: "https://github.com/imanthanpatel/airport-ui",
     },
     {
       title: "Task Management App",
@@ -35,15 +35,15 @@ export default function Projects() {
       image: "/placeholder.svg?height=300&width=500",
       tags: ["Next.js", "Firebase", "Tailwind CSS", "React Query"],
       liveLink: "https://project2.example.com",
-      githubLink: "https://github.com/manthan/project2",
+      githubLink: "",
     },
     {
       title: "Portfolio Website",
       description: "A responsive portfolio website template for developers to showcase their work and skills.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/port.png",
       tags: ["React", "Tailwind CSS", "Framer Motion"],
-      liveLink: "https://project3.example.com",
-      githubLink: "https://github.com/manthan/project3",
+      liveLink: "https://portfolioimanthan.vercel.app/",
+      githubLink: "https://github.com/imanthanpatel/Portfolio_v4",
     },
     {
       title: "Weather Dashboard",
@@ -51,7 +51,7 @@ export default function Projects() {
       image: "/placeholder.svg?height=300&width=500",
       tags: ["React", "OpenWeather API", "Chart.js"],
       liveLink: "https://project4.example.com",
-      githubLink: "https://github.com/manthan/project4",
+      githubLink: "",
     },
   ]
 
